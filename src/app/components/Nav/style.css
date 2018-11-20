@@ -1,0 +1,28 @@
+.Nav {
+  text-align: center;
+}
+
+.Nav-item {
+  display: inline-block;
+  margin: 0 10px;
+  text-transform: uppercase;
+  color: #999999;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.Nav-item-active {
+  color: #19a2f7;
+  font-weight: 500;
+  text-shadow: 2px 2px #00000015;
+}
+
+.Nav-divider {
+  width: 90%;
+  margin: 5px auto 0;
+  margin-top: -5px;
+  display: block;
+  height: 0.5px;
+  border: 0;
+  border-top: 1px solid #19a2f7;
+}

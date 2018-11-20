@@ -1,0 +1,39 @@
+.Article {
+  text-align: left;
+  margin: 35px 100px 20px;
+}
+
+.Article-title {
+  display: inherit;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.Article-title-part {
+  display: inline;
+  user-select: none;
+}
+
+.Article-title-control {
+  display: inherit;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.Article-content {
+  font-weight: 200;
+  border: 0.5px solid #eee;
+  border-radius: 5px;
+  background-color: #eee;
+  padding: 20px;
+  margin-top: 5px;
+}
+
+.Article-code {
+  width: 100%;
+  font-size: 12px;
+  border: 1px solid #202020;
+  background-color: #202020;
+  color: #ffffff;
+  border-radius: 5px;
+}

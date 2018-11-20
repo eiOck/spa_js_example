@@ -1,10 +1,13 @@
 {
-  "name": "client",
+  "name": "spa_js_example",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "interweave": "^9.2.1",
+    "list-react-files": "^0.2.0",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
+    "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.1"
   },
   "scripts": {

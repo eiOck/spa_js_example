@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  font-weight: 200;
+  color: #19a2f7;
 }
 
 .App-logo {
@@ -18,8 +20,25 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.App-title {
+  font-weight: 400;
+}
+
+.App-h2 {
+  font-size: 1em;
+  color: #19a2f7;
+  text-align: center;
+  font-weight: 500;
+}
+
+.App-a-href {
+  text-decoration: none;
+  color: #19a2f7;
 }
 
 @keyframes App-logo-spin {
