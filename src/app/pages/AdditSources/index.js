@@ -3,6 +3,10 @@ import './style.css'
 
 const sources = [
     {
+        title: 'The Complete JavaScript Handbook',
+        src: 'https://medium.freecodecamp.org/the-complete-javascript-handbook-f26b2c71719c',
+    },
+    {
         title: 'Tutorial: Intro to React',
         src: 'https://reactjs.org/tutorial/tutorial.html',
     },

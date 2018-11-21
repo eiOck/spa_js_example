@@ -1,6 +1,6 @@
 import React from 'react';
 import Article from '../../components/Article';
-import { articles } from '../../assets/articles';
+import { articles } from '../../assets/js/articles';
 
 const Frontend = () => (
     <div className="App">

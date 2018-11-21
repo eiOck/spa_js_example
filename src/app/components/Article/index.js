@@ -8,7 +8,7 @@ class Article extends Component {
         this.state = {
             opened: true,
             style: 'block',
-            icon: '◉',
+            icon: '⊖',
         }
     }
 
@@ -16,7 +16,7 @@ class Article extends Component {
         this.setState((prevState) => ({ 
             opened: prevState.opened ? false : true,
             style: prevState.opened ? 'none' : 'block',
-            icon: prevState.opened ? '○' : '◉',
+            icon: prevState.opened ? '⊕' : '⊖',
         }))
     }
 
