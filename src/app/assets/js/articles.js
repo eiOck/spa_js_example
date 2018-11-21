@@ -68,9 +68,10 @@ export const articles = [
         // příklad použití Welcome komponenty 'props' vlastnosti "name"
         <Welcome name="Karel" />
 
-        // příkald použití vlastnosti 'state' 
+        // příklad použití vlastnosti 'state' 
         class Welcome extends React.Component {
             // musíme vytvořit konstruktor s parametrem props, abychom byli schopni pracovat s definovanými 'props' dané komponenty
+            // v případě, že nepotřebujeme využívat 'props' a nepředáváme je, může zůstat prázdné
             constructor(props) {
                 // voláme konstruktor předka (React.Component)
                 super(props);
@@ -129,11 +130,12 @@ export const articles = [
         content: `
         <p>
         Pro větší přehlednost je ideální aplikaci strukturovat. Možný příklad struktury viz. obrázek. <br />
-        <div>
-            <img src="${projectStructureImg}" alt="project structure" />
-        </div>
         </p>
         `,
+        img: {
+            src: projectStructureImg,
+            alt: "project structure"
+        }
     },
     {
         title: 'Odkaz na GitHub této ukázkové aplikace',

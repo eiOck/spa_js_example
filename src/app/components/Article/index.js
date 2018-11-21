@@ -25,7 +25,7 @@ class Article extends Component {
     }
 
     render() {
-        const { title, content, code } = this.props.article;
+        const { title, content, code, img } = this.props.article;
         const { style, icon } = this.state;
         return (
             <div className="Article" style={this.setVisibility(title)}>
@@ -36,6 +36,11 @@ class Article extends Component {
                 <div className="Article-content" style={{ display: style }}>
                     <Markup content={content} style={this.setVisibility(content)} />
                     <pre className="Article-code" style={this.setVisibility(code)}>{code}</pre>
+                    <div className="Article-img-container" style={this.setVisibility(img)}>
+                        <img src={img ? img.src : ''}
+                            alt={img ? img.alt : ''}
+                        />
+                    </div>
                 </div>
             </div>
         )

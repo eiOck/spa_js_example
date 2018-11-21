@@ -1,11 +1,18 @@
 .App {
+  flex: 1;
   text-align: center;
   font-weight: 200;
   color: #19a2f7;
 }
 
+.App-dashboard {
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
+  animation: App-logo-spin infinite 5s ease-in-out;
   height: 40vmin;
 }
 
