@@ -32,6 +32,7 @@
 }
 
 .Article-code {
+  white-space: pre-wrap;
   font-size: 12px;
   border: 1px solid #202020;
   background-color: #202020;

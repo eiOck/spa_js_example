@@ -6,17 +6,16 @@ class Dashboard extends React.Component {
     componentDidMount = () => {
         fetch('https://stag-demo.uhk.cz/ws/services/rest/programy/getStudijniProgramy?fakulta=FIM&outputFormat=JSON',
         {
-            method: 'GET',
-            headers: {
-                Accept: 'application/json',
-            },
+            mode: 'no-cors',
         })
-        .then(response => console.log(response));
+        .then(res => res.text().then(data => data.parse()))
+        .then(text => console.log(text))
+        // .then(data => console.log(data))
     }
 
     render(){
         return (
-            <div className="App" style={{ backgroundColor: 1123456 }}>
+            <div className="App">
                 <div className="App-dashboard">
                     <img className="App-logo" src={logo} alt="logo" />
                 </div>
