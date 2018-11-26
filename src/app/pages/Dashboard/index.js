@@ -8,6 +8,7 @@ class Dashboard extends React.Component {
             <div className="App">
                 <div className="App-dashboard">
                     <img className="App-logo" src={logo} alt="logo" />
+                    <p>http://private-c4c61c-eiocktest.apiary-mock.com/data</p>
                 </div>
             </div>
         )
