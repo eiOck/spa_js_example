@@ -2,6 +2,8 @@
 
 Single Page Application example with some examples with a description of React.js concepts (frontend) and resources for further study.
 
+Link to heroku app: [https://spa-js-example.herokuapp.com/](https://spa-js-example.herokuapp.com/)
+
 ### How to run it?
 
 ```
